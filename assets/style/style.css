@@ -1,12 +1,13 @@
 * {
-  font-family: 'El Messiri', sans-serif;
+  font-family: "El Messiri", sans-serif;
   margin: 0;
-  padding: 0  ;
+  padding: 0;
 }
 
 #banner {
   height: 700px;
-  background: linear-gradient(#0000001a, #1eb300), url(/assets/images/banner.jpg);
+  background: linear-gradient(#0000001a, #1eb300),
+    url(/assets/images/banner.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -42,14 +43,14 @@
   margin: 0 10px;
   padding: 12px 0;
   color: white;
-  border: .5px solid white;
+  border: 0.5px solid white;
   position: relative;
   z-index: 1;
   transition: color 0.5s;
 }
 
 .banner-btn a span {
-  width : 0%;
+  width: 0%;
   height: 100%;
   position: absolute;
   top: 0;
@@ -70,7 +71,7 @@
 .title-text {
   text-align: center;
   padding-bottom: 20px;
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 .title-text p {
