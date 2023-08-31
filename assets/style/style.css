@@ -68,6 +68,10 @@
   color: black;
 }
 
+#features {
+  margin-top: -260px;
+}
+
 .title-text {
   text-align: center;
   padding-bottom: 20px;
@@ -96,9 +100,6 @@
   background: linear-gradient(1200deg, #62d70c 0%, #0fc963 38%, #00d4ff 100%);
 }
 
-#features {
-  margin-top: -260px;
-}
 .feature-box {
   width: 80%;
   display: flex;
@@ -114,6 +115,10 @@
 .features-img {
   flex-basis: 50%;
   margin: auto;
+}
+
+.features-img {
+  font-size: 20px;
 }
 
 .features-img img {
