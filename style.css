@@ -209,6 +209,7 @@
   width: 100%;
   padding: 70px 0;
   margin-top: -350px;
+  margin-bottom: -100px;
 }
 
 .testimonial-row {
@@ -295,4 +296,18 @@
 .footer-right a {
   text-decoration: none;
   color: #0066ff;
+}
+
+@media only screen and (min-width: 1920px) {
+  #features {
+    margin-top: -330px;
+  }
+
+  #testimonial {
+    margin-top: -400px;
+  }
+
+  #ImpactOnEnvironment {
+    height: 85vw;
+  }
 }
