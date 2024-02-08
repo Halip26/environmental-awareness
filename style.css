@@ -111,6 +111,12 @@
   flex-basis: 50%;
 }
 
+.feature-box .features a {
+  font-style: italic;
+  text-decoration: none;
+  color: #0066ff;
+}
+
 .features-img {
   flex-basis: 50%;
   margin: auto;
